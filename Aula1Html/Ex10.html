@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Confeitaria Doçuras da Gabi</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+
+    <h1>🍩 Confeitaria Doçuras da Gabi</h1>
+    <h2>Bem-vindo(a)! Confira nossas delícias, sabores disponíveis e faça seu pedido. 😋</h2>
+
+    <hr>
+
+    <h2>📝 Lista de Produtos</h2>
+
+    <ul class="lista-produtos">
+        <li>Cupcake de Chocolate</li>
+        <li>Bolo Red Velvet</li>
+        <li>Donuts recheados</li>
+        <li>Cookies artesanais</li>
+    </ul>
+
+    <hr>
+
+    <h2>📊 Tabela de Sabores e Preços</h2>
+
+    <table class="tabela-sabores">
+        <tr>
+            <th>Produto</th>
+            <th>Sabor</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Cupcake</td>
+            <td>Baunilha</td>
+            <td>R$ 7,00</td>
+        </tr>
+        <tr>
+            <td>Bolo</td>
+            <td>Chocolate</td>
+            <td>R$ 45,00</td>
+        </tr>
+        <tr>
+            <td>Donut</td>
+            <td>Morango</td>
+            <td>R$ 8,00</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>📬 Formulário de Pedido</h2>
+
+    <form class="formulario">
+
+        <label for="nome">Seu nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+        <label for="produto">Escolha o produto:</label><br>
+        <select id="produto" name="produto">
+            <option value="cupcake">Cupcake</option>
+            <option value="bolo">Bolo</option>
+            <option value="donut">Donut</option>
+            <option value="cookie">Cookie</option>
+        </select><br><br>
+
+        <p>Escolha os adicionais:</p>
+        <label><input type="checkbox" name="adicional" value="granulado"> Granulado</label><br>
+        <label><input type="checkbox" name="adicional" value="cobertura"> Cobertura extra</label><br>
+        <label><input type="checkbox" name="adicional" value="recheio"> Recheio duplo</label><br><br>
+
+        <button type="submit">Enviar pedido 🍪</button>
+    </form>
+
+</body>
+</html>
