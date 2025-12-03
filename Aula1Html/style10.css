@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff6fa;
+    padding: 20px;
+    color: #4b2c3a;
+}
+
+h1, h2 {
+    color: #d14f79;
+}
+
+.lista-produtos li {
+    background-color: #ffe0ec;
+    margin: 6px 0;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.tabela-sabores {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela-sabores th {
+    background-color: #ffb6d6;
+    padding: 10px;
+}
+
+.tabela-sabores td {
+    border: 1px solid #d67da3;
+    padding: 8px;
+    background-color: #ffeef5;
+}
+
+.formulario {
+    background-color: #ffe0ec;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #d14f79;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b63f64;
+}
