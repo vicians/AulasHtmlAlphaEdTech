@@ -1,0 +1,90 @@
+/* ---------- IDs ---------- */
+
+#cabecalho {
+  background-color: #d9e6ff;
+  padding: 15px;
+}
+
+#rodape {
+  background-color: #cce0ff;
+  padding: 10px;
+  text-align: center;
+}
+
+#caixa-exemplo {
+  background-color: #f5f5f5;
+  border: 2px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#paragrafo-unico {
+  color: #0059b3;
+  font-weight: bold;
+}
+
+#alerta-importante {
+  border-left: 6px solid #cc0000;
+}
+
+
+/* ---------- Classes ---------- */
+
+.titulo-principal {
+  color: #222;
+  font-size: 28px;
+}
+
+.texto-destaque {
+  color: #444;
+  font-size: 18px;
+}
+
+.subtitulo {
+  color: #333;
+  margin-top: 25px;
+}
+
+.mensagem {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+/* Cores diferentes usando classes extras */
+
+.laranja {
+  color: #e65c00;
+}
+
+.azul {
+  color: #0066cc;
+}
+
+
+/* Caixas de exemplo */
+
+.card {
+  background-color: #fff3cd;
+  border: 2px solid #ffeeba;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+.card-titulo {
+  color: #a67c00;
+}
+
+.card-texto {
+  color: #665200;
+}
+
+/* Alerta */
+
+.alerta {
+  background-color: #ffe6e6;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #ffcccc;
+  border-radius: 5px;
+}
