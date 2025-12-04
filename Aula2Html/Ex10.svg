@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250">
+  <circle cx="100" cy="120" r="40" fill="#4ba3ff" />
+
+  <text x="170" y="105" font-size="18" fill="#555555ff" font-family="Arial, sans-serif">
+    <tspan x="170" dy="0">Este é um círculo</tspan>
+    <tspan x="170" dy="25">Criado usando &lt;circle&gt;</tspan>
+    <tspan x="170" dy="25" fill="#0077ff">Cor azul definida em "fill"</tspan>
+  </text>
+</svg>
