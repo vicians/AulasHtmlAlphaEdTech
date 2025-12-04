@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 350 350">
+
+  <!-- Sol -->
+  <circle cx="175" cy="175" r="25" fill="yellow" />
+
+  <!-- Órbita 1 -->
+  <circle cx="175" cy="130" r="6" fill="green">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 175 175"
+      to="360 175 175"
+      dur="4s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Órbita 2 -->
+  <circle cx="175" cy="110" r="8" fill="lightblue">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 175 175"
+      to="360 175 175"
+      dur="6s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Órbita 3 -->
+  <circle cx="175" cy="90" r="5" fill="pink">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 175 175"
+      to="360 175 175"
+      dur="3s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Órbita 4 -->
+  <circle cx="175" cy="70" r="7" fill="red">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 175 175"
+      to="360 175 175"
+      dur="8s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Cometa -->
+  <circle cx="0" cy="175" r="10" fill="white">
+    <animate
+      attributeName="cx"
+      from="0"
+      to="350"
+      dur="8s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- Rastro do cometa -->
+  <circle cx="0" cy="175" r="10" fill="orange">
+    <animate
+      attributeName="cx"
+      from="0"
+      to="350"
+      dur="8s"
+      begin="0.2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+</svg>
