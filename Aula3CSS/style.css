@@ -1,6 +1,3 @@
-/* =========================================
-   RESET E GLOBAIS
-   ========================================= */
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +5,12 @@
 }
 
 body {
-    font-family: 'Georgia', serif; /* Fonte estilo jornal/elegante */
-    background-color: #0a0a0a; /* Fundo preto padrão */
+    font-family: 'Georgia', serif; 
+    background-color: #0a0a0a;
     color: #ffffff;
     line-height: 1.6;
 }
 
-/* Container centralizador */
 .container {
     width: 90%;
     max-width: 1200px;
@@ -22,14 +18,13 @@ body {
     position: relative;
 }
 
-/* HACK: Clearfix (Para limpar os floats) */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Tipografia */
+
 h1 { font-size: 3.5rem; margin-bottom: 10px; font-weight: normal; }
 h2 { font-size: 2rem; margin-bottom: 15px; text-align: center; font-weight: normal; }
 p.subtitle { 
@@ -37,9 +32,7 @@ p.subtitle {
     max-width: 600px; margin: 0 auto 50px auto; font-family: sans-serif;
 }
 
-/* =========================================
-   MENU DE NAVEGAÇÃO (Sem Flexbox)
-   ========================================= */
+
 .top-nav {
     position: absolute; /* Flutua sobre a imagem */
     top: 0;
@@ -68,14 +61,10 @@ p.subtitle {
     opacity: 0.8;
 }
 
-/* =========================================
-   HERO SECTION (Topo + Fade)
-   ========================================= */
 .hero {
-    height: 100vh; /* Tela cheia */
+    height: 100vh;
     position: relative;
-    
-    /* IMAGEM + FADE PRETO EMBAIXO */
+
     background-image: 
         /* Degradê: Transparente (topo) até Preto (#0a0a0a) (fim) */
         linear-gradient(to bottom, rgba(10,10,10,0) 10%, #0a0a0a 100%),
@@ -96,11 +85,9 @@ p.subtitle {
     width: 100%;
 }
 
-/* =========================================
-   SEÇÕES PRETAS (Conteúdo)
-   ========================================= */
+
 .section-dark {
-    background-color: #0a0a0a; /* Mesma cor do fim do degradê */
+    background-color: #0a0a0a;
     padding: 30px 0 100px 0;
 }
 
@@ -161,7 +148,7 @@ p.subtitle {
     position: relative;
     
     background-image: 
-        linear-gradient(to bottom, #0a0a0a 1%, rgba(10,10,10,0) 50%),
+        linear-gradient(to bottom, #0a0a0a 1%, rgba(10,10,10,0) 90%),
         url('neon.jpg');
         
     background-size: cover;
@@ -171,7 +158,7 @@ p.subtitle {
     background-color: #0a0a0a;
     color: #9c9c9cce;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 0.7rem;
     font-family: sans-serif;
 }
